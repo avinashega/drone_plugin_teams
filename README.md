@@ -4,7 +4,7 @@ Sample drone.yml content for notification
 ```yaml
   notify:
     image: diyfr/drone_plugin_teams
-    secrets : [teams_webhook]
+    secrets : [teams_webhook_url]
     content:
       title: "New Version published"
       text: "A new version of Sample project  was published"
